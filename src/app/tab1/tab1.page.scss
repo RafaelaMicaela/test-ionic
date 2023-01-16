@@ -1,0 +1,29 @@
+ion-item{
+  --padding-start:10px ;
+  --inner-padding-end: 10px;
+
+  ion-thumbnail{
+    height: 100%;
+    width: 100px;
+    margin-inline-end: 10px;
+  }
+  h1{
+    font-weight: bolder;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  p{
+    font-size: 0.7rem;
+  }
+  p+p{
+    color: #8a8a8a;
+  }
+  ion-chip{
+    padding-inline:3px;
+  }
+  ion-badge{
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-right: 2px;
+  }
+}
